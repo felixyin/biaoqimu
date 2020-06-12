@@ -1,0 +1,19 @@
+/* item.wxss */
+
+.my-page {
+  /* padding: 40rpx; */
+}
+
+.desc {
+  font-size: 1rem;
+  color: #727171;
+  margin-bottom: 50rpx;
+  text-align: center;
+}
+
+/* image {
+width:320px;
+height:340px;
+display:inline-block;
+overflow:hidden;
+} */

@@ -1,0 +1,5 @@
+/* item.wxss */
+
+image{
+  width: 100%!important;
+}

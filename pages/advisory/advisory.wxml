@@ -1,0 +1,42 @@
+<view class="page">
+
+
+  <view class="my-center">
+    <image class="logo" mode="aspectFit" src="../../image/icons/logo.png" style="margin:0 auto;"></image>
+  </view>
+  <view class="title">意大利比奥齐姆公司</view>
+
+  <view class="space"></view>
+  <view class="label">业务咨询</view>
+  <button type="default" bindtap="bindWeixinConcatTap" open-type="contact" style="margin-left:40rpx;margin-right:40rpx;"> 点击直接微信联系 </button>
+
+  <view class="space"></view>
+  <view class="label">技术咨询</view>
+  <button type="default" bindtap="bindWeixinConcatTap" open-type="contact" style="margin-left:40rpx;margin-right:40rpx;"> 点击直接微信联系 </button>
+
+  <view class="space"></view>
+  <view class="label">联系我们</view>
+  <view class="my-lxwm">
+    <view class="my-row">
+      <view class="my-icon">
+        <image class="my-image" mode="aspectFit" src="../../image/icons/addr.png"></image>
+      </view>
+      <view class="my-con">青岛市崂山区海尔路83号金鼎大厦10楼1008室</view>
+    </view>
+    <view class="my-row">
+      <view class="my-icon">
+        <image class="my-image" mode="aspectFit" src="../../image/icons/phone.png"></image>
+      </view>
+      <view class="my-con my-phone" bindtap="callLxwm">0532 8086 6537</view>
+    </view>
+    <view class="my-row">
+      <view class="my-icon">
+        <image class="my-image" mode="aspectFit" src="../../image/icons/www.png"></image>
+      </view>
+      <view class="my-con">www.biolchim.com.cn</view>
+    </view>
+  </view>
+
+  <view class="space"></view>
+
+</view>

@@ -1,0 +1,20 @@
+<!--home.wxml-->
+<import src="../../wxParse/wxParse/wxParse.wxml" />
+
+<view class="my-page">
+  <view class="my-desc">
+    <template is="wxParse" data="{{wxParseData:desc.nodes}}" />
+  </view>
+  <view class="hr"></view>
+  <view class="my-list">
+    <view class="my-item" wx:for="{{homeData}}" wx:key="id" wx:for-item="d">
+      <view class="my-label">
+        <image class="image-item" mode="aspectFit" src="{{d.thumb}}"></image>
+      </view>
+      <view class="my-content">
+        <view class="title">{{d.title}}</view>
+        <view class="classname">{{d.description}}</view>
+      </view>
+    </view>
+  </view>
+</view>

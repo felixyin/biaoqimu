@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container hidden">
+
+  <view class="" >
+    <view class="category1_title">生物刺激剂</view>
+    <view class="category2" wx:for="{{categorys1}}"  wx:for-item="c">
+      <view class="category2_title">{{c.name}}</view>
+      <view class="project_list">
+        <view class="project-item" bindtap="bindViewTap" data-id="{{p.proid}}" wx:for="{{c.projects}}" wx:for-item="p" title="{{p.title}}">
+        <image class="image-item" mode="aspectFit" src="{{p.src}}"></image>
+        </view>
+      </view>
+    </view>
+     
+  </view>
+
+ <view class="category1" >
+    <view class="category1_title">特种肥料</view>
+    <view class="category2" wx:for="{{categorys2}}" wx:for-item="c">
+      <view class="category2_title2">{{c.name}}</view>
+      <view class="project_list2">
+        <view class="project-item2" bindtap="bindViewTap" data-id="{{p.proid}}"  wx:for="{{c.projects}}" wx:for-item="p" title="{{p.title}}">
+        <image class="image-item2" mode="aspectFit" src="{{p.src}}"></image>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+
+</view>

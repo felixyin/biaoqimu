@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="">
+  <view class="my-nav">
+    <view class="image-left">
+      <image class="image-left" mode="scaleToFill" src="../../image/icons/left.png"></image>
+    </view>
+    <scroll-view class="scroll-view_H" scroll-x>
+      <view class="scroll-view-item_H" wx:for="{{categorys}}" wx:key="catid" wx:for-item="c" bindtap="bindCategoryap" data-id="{{c.catid}}" data-catname="{{c.catname}}">
+        <navigator class="switchBtn" bindtap="switchBgColor" data-image="{{c.image}}">
+          <image class="image-item" mode="aspectFit" src="{{c.image}}"></image>
+          <view class="tc">{{c.catname}}</view>
+        </navigator>
+      </view>
+    </scroll-view>
+    <view class="image-right">
+      <image class="image-right" mode="scaleToFill" src="../../image/icons/right.png"></image>
+    </view>
+  </view>
+
+  <view class="title">{{catname}}应用案例</view>
+
+  <view class="case-list">
+    <view class="case-item" wx:for="{{cases}}" wx:key="id" wx:for-item="c" bindtap="bindCaseTap" data-id="{{c.id}}">{{c.title}}</view>
+  </view>
+
+</view>

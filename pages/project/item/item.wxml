@@ -1,0 +1,55 @@
+<!--item.wxml-->
+<view class="my-page">
+  <import src="../../../wxParse/wxParse/wxParse.wxml" />
+
+  <view class="title"  wx:if="production.title">
+    {{production.title}}
+  </view>
+
+  <view class="desc" wx:if="production.description">
+    {{production.description}}
+  </view>
+
+  <view class="my-center">
+    <image mode="aspectFit" wx:if="production.thumb" src="{{production.thumb}}"></image>
+  </view>
+  <!-- <view class="hr" wx:if="production.thumb"></view> -->
+  <view class="slogan" wx:if="{{production.slogan}}" style="padding:8px;">
+    <template is="wxParse" data="{{wxParseData:slogan.nodes}}" />
+  </view>
+  <view class="hr" wx:if="{{production.slogan}}"></view>
+
+  <view class="slogan" wx:if="{{production.pro_specifications}}" style="padding:8px;">
+    <template is="wxParse" data="{{wxParseData:pro_specifications.nodes}}" />
+  </view>
+  <view class="hr" wx:if="{{production.pro_specifications}}"></view>
+
+  <view class="title" wx:if="{{production.content}}">成分</view>
+  <view class="text" style="padding:8px;">
+    <template is="wxParse" data="{{wxParseData:chengFen.nodes}}" />
+  </view>
+  <view class="hr" wx:if="{{production.content}}"></view>
+
+  <view class="title" wx:if="{{function.nodes}}">功能</view>
+  <view class="text" style="padding:8px;">
+    <template is="wxParse" data="{{wxParseData:function.nodes}}" />
+  </view>
+  <view class="hr" wx:if="{{function.nodes}}"></view>
+
+  <view class="title" wx:if="{{production.mechanism_action}}">作用机理</view>
+  <view class="text" style="padding:8px;">
+    <template is="wxParse" data="{{wxParseData:mechanism_action.nodes}}" />
+  </view>
+  <view class="hr" wx:if="{{production.mechanism_action}}"></view>
+
+  <view class="title" wx:if="{{production.method_use}}">使用方法</view>
+  <view class="text" style="padding:8px;">
+    <template is="wxParse" data="{{wxParseData:method_use.nodes}}" />
+  </view>
+  <view class="hr" wx:if="{{production.method_use}}"></view>
+
+  <view class="my-center">
+    <image class="image-item" mode="aspectFit" wx:if="{{production.thumb_banner}}" src="{{production.thumb_banner}}"></image>
+  </view>
+  <view class="title" style="margin-bottom:50rpx;" bindtap="bindCallPhoneTap">咨询电话：0532-80866037</view>
+</view>

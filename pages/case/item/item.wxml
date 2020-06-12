@@ -1,0 +1,9 @@
+<!--item.wxml-->
+<import src="../../../wxParse/wxParse/wxParse.wxml" />
+<view class="container">
+
+  <!-- <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text> -->
+
+  <template is="wxParse" data="{{wxParseData:caseImg.nodes}}" />
+
+</view>

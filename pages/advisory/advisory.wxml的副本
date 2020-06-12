@@ -1,0 +1,63 @@
+<!--pages/advisory/index.wxml-->
+
+<view class="page">
+  <view class="title">意大利比奥齐姆公司</view>
+
+  <!-- <view class="label">业务咨询</view>
+  <view class="my-row">
+    <view id="name" class="input my-column">
+      <input placeholder="姓名" bindinput="bindNameInput" />
+    </view>
+    <view id="phone" class="input my-column">
+      <input placeholder="手机号" bindinput="bindPhoneInput" />
+    </view>
+  </view>
+  <view class="textarea">
+    <textarea id="question" placeholder="请输入您要咨询的问题或留言" bindinput="bindQuestionInput" />
+  </view>
+  <view class="space"></view>
+  <button type="primary" bindtap="bindSaveTap" class="my-save-btn" hover-class="other-button-hover"> 保存 </button> -->
+
+  <view class="space"></view>
+  <view class="label">业务咨询</view>
+  <button type="default" bindtap="bindWeixinConcatTap" open-type="contact" style="margin-left:40rpx;margin-right:40rpx;"> 点击直接微信联系 </button>
+
+  <view class="space"></view>
+  <view class="label">技术咨询</view>
+  <button type="default" bindtap="bindWeixinConcatTap" open-type="contact" style="margin-left:40rpx;margin-right:40rpx;"> 点击直接微信联系 </button>
+
+  <view class="space"></view>
+  <view class="label">联系我们</view>
+  <view class="my-lxwm">
+    <view class="my-row">
+      <view class="my-icon">
+        <image class="my-image" mode="aspectFit" src="../../image/icons/addr.png"></image>
+      </view>
+      <view class="my-con">青岛市崂山区香港东路458号41号楼101</view>
+    </view>
+    <view class="my-row">
+      <view class="my-icon">
+        <image class="my-image" mode="aspectFit" src="../../image/icons/phone.png"></image>
+      </view>
+      <view class="my-con my-phone" bindtap="callLxwm">0532 8086 6537</view>
+    </view>
+    <view class="my-row">
+      <view class="my-icon">
+        <image class="my-image" mode="aspectFit" src="../../image/icons/www.png"></image>
+      </view>
+      <view class="my-con">http://www.biolchim.com.cn/</view>
+    </view>
+  </view>
+
+  <view class="space"></view> 
+  
+  <!-- <view class="label">区域负责人电话</view>
+  <view wx:for="{{salesmans}}" class="fzr" wx:for-item="s" bindtap="bindCallPhoneTap" wx:key="id" data-phone="{{s.phone}}">
+    <view class="classname">负责人：{{s.salesman}}</view>
+    <view class="my-phone">电话：{{s.phone}}</view>
+    <view class="classname">负责区域：{{s.area}}</view>
+    <view class="hr"></view>
+  </view>
+  <view class="space"></view> -->
+
+</view>

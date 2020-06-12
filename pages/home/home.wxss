@@ -1,0 +1,56 @@
+/* home.wxss */
+
+.my-page {
+  padding: 20rpx;
+}
+
+.my-desc {
+  padding-top:20rpx;
+  text-indent: 2em;
+}
+
+.my-list {
+  margin-top:30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.my-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+  /* height: 230rpx; */
+}
+
+.my-label {
+  flex: 1;
+  border-right: 1rpx solid #cbcbcb;
+  height: 195rpx;
+  width: 300rpx;
+  padding: 0 20rpx;
+  justify-content: flex-start;
+}
+
+.image-item {
+  height: 190rpx;
+  width: 190rpx;
+}
+
+.my-content {
+  flex: 7;
+  padding: 0 20rpx;
+  justify-content: flex-start;
+}
+
+.title {
+  margin-top: 20rpx;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.5;
+}

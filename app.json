@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",    
+    "pages/case/case",
+    "pages/project/project",
+    "pages/advisory/advisory",
+    "pages/search/search",
+    "pages/project/item/item",
+    "pages/case/item/item"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Biolchim",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/tabbar/home.png",
+        "selectedIconPath": "image/tabbar/home_hl.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "iconPath": "image/tabbar/project.png",
+        "selectedIconPath": "image/tabbar/project_hl.png",
+        "text": "产品"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "iconPath": "image/tabbar/case.png",
+        "selectedIconPath": "image/tabbar/case_hl.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/advisory/advisory",
+        "iconPath": "image/tabbar/advisory.png",
+        "selectedIconPath": "image/tabbar/advisory_hl.png",
+        "text": "咨询"
+      }
+    ]
+  }
+}

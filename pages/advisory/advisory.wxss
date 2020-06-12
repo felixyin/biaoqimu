@@ -1,0 +1,82 @@
+/* pages/advisory/index.wxss */
+
+.page {
+  overflow: hidden !important;
+  padding: 20rpx;
+}
+
+.label {
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.input {
+  border: 1rpx solid black !important;
+  padding: 10rpx 20rpx;
+  margin: 20rpx 40rpx;
+}
+
+.my-save-btn {
+  /* height: 20rpx; */
+  margin: 5rpx 40rpx;
+}
+
+.textarea {
+  /* height: 200rpx; */
+  border: 1rpx solid black !important;
+  padding: 10rpx 20rpx;
+  margin: 20rpx 40rpx;
+}
+
+.my-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.my-column {
+  flex: 1;
+}
+
+.space {
+  margin: 20rpx 0;
+}
+
+.fzr {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.my-lxwm {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.my-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-icon {
+  flex: 1;
+}
+
+.my-image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.my-con {
+  flex: 9;
+}
+
+.logo {
+  text-align: center;
+  height: 138rpx!important;
+  width: 288rpx!important;
+}
+

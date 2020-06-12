@@ -1,0 +1,149 @@
+@import "../../wxParse/wxParse/wxParse.wxss";
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+/**index.wxss**/
+
+.bc_green {
+  background-color: green;
+}
+
+.bc_red {
+  background-color: red;
+}
+
+.bc_blue {
+  background-color: blue;
+}
+
+.bc_yellow {
+  background-color: yellow;
+}
+
+.category1 {
+  margin: 30rpx 0;
+}
+
+.category1_title {
+  background-color: black;
+  margin: 10rpx;
+  color: white;
+  text-align: center;
+}
+
+.category2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.category2_title {
+  width: r50px;
+  flex: 1;
+  text-align: center;
+  padding-top: 40rpx;
+}
+
+.project_list {
+  margin: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 5;
+}
+
+.project-item {
+  width: 140rpx;
+  height: 100rpx;
+  margin: 5rpx;
+  font-size: 26rpx;
+  border-radius: 5px;
+}
+
+.image-item {
+  margin-top: 10rpx;
+  margin-left: 52rpx;
+  width: 100rpx;
+  height: 100rpx;
+  padding: 5rpx;
+  font-size: 26rpx;
+  border-radius: 5px;
+}
+
+.page-section-spacing {
+  margin-top: 60rpx;
+}
+
+.scroll-view_H {
+  flex: 8;
+  width: 94% !important;
+  white-space: nowrap;
+}
+
+.scroll-view-item {
+  height: 300rpx;
+}
+
+.scroll-view-item_H {
+  display: inline-block;
+  width: 30%;
+  height: 180rpx;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.case-list {
+  margin: 30rpx 60rpx;
+}
+
+.case-item {
+  /* font-size: 1.1rem; */
+  padding: 20rpx 0;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+  /*  text-decoration: underline; *//* color: lightslategey; */
+}
+
+.my-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 180rpx;
+  overflow: hidden;
+}
+
+.image-left {
+  flex: 1;
+  float: right;
+  margin: 0 auto;
+  width: 30rpx !important;
+  height: 100rpx !important;
+}
+
+.image-right {
+  flex: 1;
+  width: 30rpx !important;
+  height: 80rpx !important;
+}
+
+.title {
+  font-size: 1.1rem;
+}
